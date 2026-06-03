@@ -135,7 +135,7 @@ elif page == "فريق العمل":
 # =========================
 else:
 
-    st.image("images/cover.JPG", use_container_width=True)
+    st.image("images/cover.jpg", use_container_width=True)
 
     st.markdown(
         """
