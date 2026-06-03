@@ -523,6 +523,11 @@ else:
                 st.caption(
                     row["Address"]
                 )
+                if pd.notna(row["Reason"]):
+
+                    st.info(
+                        f"💡 سبب الترشيح: {row['Reason']}"
+                )
 
                 if pd.notna(
                     row["Maps"]
